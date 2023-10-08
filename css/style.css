@@ -1,0 +1,60 @@
+.page__header {
+width: 100%;
+
+}
+.page__header .container{
+    width: 100%;
+height: 70px;
+
+
+}
+.page__header__nav {
+flex-direction: row;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    align-items: center;
+    gap: 800px;
+    height: 70px;
+    display: flex;
+}
+
+.page__header__logo {
+    color: var(--color-primary);
+    font-size: 32px;
+    font-family: "Raleway", sans-serif;
+    display: flex;
+  padding-bottom: 5px;
+
+
+}
+
+.page__header__list {
+    display: flex;
+    justify-content: flex-end;
+    gap: 35px;
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+    font-size: 11px;
+    background-color: transparent;
+  align-items: center;
+
+
+}
+
+.page__header__list li {
+   text-align: center;
+}
+
+.page__header__list a {
+    color: var(--color-grey);
+    text-decoration: none;
+    letter-spacing: 3px;
+}
+
+.page__header__list a:hover {
+    color: black;
+    text-decoration: underline dodgerblue;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 25px;
+
+}
