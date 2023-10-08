@@ -1,5 +1,5 @@
 .page__header {
-width: 100%;
+width: 1352px;
 
 }
 .page__header .container{
@@ -10,10 +10,10 @@ height: 70px;
 }
 .page__header__nav {
 flex-direction: row;
-    box-shadow: 0px 3px 6px #00000029;
+    box-shadow: 0 3px 6px #00000029;
     opacity: 1;
     align-items: center;
-    gap: 800px;
+    gap: 700px;
     height: 70px;
     display: flex;
 }
@@ -23,22 +23,19 @@ flex-direction: row;
     font-size: 32px;
     font-family: "Raleway", sans-serif;
     display: flex;
-  padding-bottom: 5px;
-
-
+    padding-bottom: 5px;
+    margin-left: 100px;
 }
 
 .page__header__list {
     display: flex;
     justify-content: flex-end;
-    gap: 35px;
+    gap: 40px;
     font-family: "Open Sans", sans-serif;
     text-transform: uppercase;
     font-size: 11px;
     background-color: transparent;
   align-items: center;
-
-
 }
 
 .page__header__list li {

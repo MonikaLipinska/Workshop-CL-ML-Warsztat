@@ -1,0 +1,60 @@
+.section1 {
+    width: 1352px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section1 .container {
+    width: 1352px;
+}
+
+.section1__maintext {
+    font-family: "Raleway", sans-serif;
+    font-size: 49px;
+    color: black;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.section1__text{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.section1__btn {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    width: 440px;
+    height: 67px;
+    background-color: var(--color-primary);
+    border-radius: 40px;
+    color: white;
+    text-decoration: none;
+    border: none;
+    box-shadow: 5px 10px 14px #07ACE629;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 450px;
+    margin-top: 38px;
+
+}
+
+.section1__btn a {
+    color: white;
+    text-decoration: none;
+}
+
+.section1__pic {
+background-position: center;
+    background-color: transparent;
+    background-size: contain;
+}
+
+.section1__pic img {
+    width: 1352px;
+    height: auto;
+}
