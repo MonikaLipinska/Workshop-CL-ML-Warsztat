@@ -67,6 +67,7 @@ img .icon__green {
     border-radius: 23px;
     border: none;
     margin-top: 61px;
+    margin-left: 115px;
 }
 a {
     color: white;
@@ -124,6 +125,7 @@ img .icon__green {
     border: none;
     margin-top: 79px;
     box-shadow: 5px 10px 14px #07ACE629;
+    margin-left: 115px;
 }
 a {
     color: white;
@@ -185,6 +187,8 @@ img .icon__green {
     border-radius: 23px;
     border: none;
     margin-top: 41px;
+    margin-left: 115px;
+
 }
 a {
     color: white;

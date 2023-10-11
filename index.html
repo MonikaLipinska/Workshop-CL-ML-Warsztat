@@ -169,26 +169,26 @@
         <article class="contact__leftside">
             <p class="contact__textmain">Any questions?</p>
             <p class="contact__text">Leave your email address or call us!</p>
-            <p>
-                <img class="contact__mail__icon" src="../assets/Mail Icon.svg">
-            </p>
-            <p>
-                <img class="contact__phone__icon" src="../assets/Phone Icon.svg">
-            </p>
+           <div class="contact__details">
+            <p class="mail">info@bestshop.xyz</p>
+            <p class="phone__nr">123 456 789</p>
+           </div>
         </article>
         <article class="contact__rightside">
+            <form class="theform">
             <label for="name">name</label>
             <input type="text" id="name" name="name">
             <br><br>
             <label for="e-mail">e-mail</label>
             <input type="text" id="e-mail" name="e-mail">
             <br><br>
-            <label class="checkbox">
-            <input type="checkbox">
-            <span></span>
+
+            <input type="checkbox" id="checkbox1">
+            <label for="checkbox1" class="checkbox-styled">
             I hereby give consent for my personal data included in my application to be processed for the purposes of the recruitment process under the European Parliament’s and Council of the European Union Regulation on the Protection of Natural Persons as of 27 April 2016, with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (Data Protection Directive)
             </label>
             <button class="contact__btn">Send</button>
+            </form>
         </article>
     </div>
     </div>
