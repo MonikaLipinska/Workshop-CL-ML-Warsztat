@@ -1,0 +1,225 @@
+.pricing {
+    width: 1352px;
+
+}
+
+.container {
+    width: 1352px;
+}
+
+h3 {
+    font-family: "Raleway", sans-serif;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 30px;
+    justify-content: center;
+    margin-left: 150px;
+    margin-top: 60px;
+}
+
+.pricing__container__columns {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    margin-left: 150px;
+    margin-bottom: 150px;
+}
+
+.pricing__basic {
+    width: 372px;
+    height: 461px;
+    border: 1px solid var(--color-redish);
+    border-radius: 18px;
+    text-align: center;
+}
+
+.basic {
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 34px;
+}
+
+.price {
+    font-family: "Open Sans", sans-serif;
+    font-size: 46px;
+    color: var(--color-redish);
+    margin-top: 30px;
+}
+
+.basic__text1, .basic__text2, .basic__text3, .basic__text4, .basic__text5 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    padding:10px;
+}
+
+img .icon__green {
+    width: 11px;
+    height: 11px;
+    padding: 5px;
+}
+
+.pricing__btn1 {
+    width: 150px;
+    height: 50px;
+    background-color: var(--color-redish);
+    border-radius: 23px;
+    border: none;
+    margin-top: 61px;
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+.basic__text1 {
+    margin-top: 70px;
+}
+
+
+.pricing__professional {
+    width: 405px;
+    height: 500px;
+    border: 1px solid var(--color-primary);
+    box-shadow: 5px 10px 27px #07ACE629;
+    border-radius: 18px;
+    text-align: center;
+}
+
+.professional {
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 34px;
+}
+
+.price2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 46px;
+    color: var(--color-primary);
+    margin-top: 30px;
+}
+
+.professional__text1, .professional__text2, .professional__text3, .professional__text4, .professional__text5 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    padding:10px;
+}
+
+img .icon__green {
+    width: 11px;
+    height: 11px;
+    padding: 5px;
+}
+
+.pricing__btn2 {
+    width: 150px;
+    height: 50px;
+    background-color: var(--color-primary);
+    border-radius: 23px;
+    border: none;
+    margin-top: 79px;
+    box-shadow: 5px 10px 14px #07ACE629;
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+.professional__text1 {
+    margin-top: 70px;
+}
+
+.pricing__premium {
+    width: 372px;
+    height: 461px;
+    border: 1px solid var(--color-green);
+    border-radius: 18px;
+    text-align: center;
+}
+
+.premium {
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 34px;
+}
+
+.price3 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 46px;
+    color: var(--color-green);
+    margin-top: 30px;
+}
+
+.premium__text1, .premium__text2, .premium__text3, .premium__text4, .premium__text5 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    padding:10px;
+}
+
+.offer {
+    font-family: "Raleway", sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+img .icon__green {
+    width: 11px;
+    height: 11px;
+    padding: 5px;
+}
+
+.pricing__btn3 {
+    width: 150px;
+    height: 50px;
+    background-color: var(--color-green);
+    border-radius: 23px;
+    border: none;
+    margin-top: 41px;
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+.premium__text1 {
+    margin-top: 70px;
+}
+
+
+.basic__text1::before, .basic__text2::before, .basic__text3::before {
+    content: url("../assets/Ckechmark-1.svg");
+margin-right:10px;
+}
+
+.basic__text4::before, .basic__text5::before{
+    content: url("../assets/Close.svg");
+    margin-right: 10px;
+}
+
+.professional__text1::before, .professional__text2::before, .professional__text3::before, .professional__text4::before{
+    content: url("../assets/Ckechmark-1.svg");
+    margin-right:10px;
+}
+
+.professional__text5::before{
+    content: url("../assets/Close.svg");
+    margin-right: 10px;
+}
+
+.premium__text1::before, .premium__text2::before, .premium__text3::before, .premium__text4::before, .premium__text5::before{
+    content: url("../assets/Ckechmark-1.svg");
+    margin-right:10px;
+}

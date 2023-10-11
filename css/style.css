@@ -18,10 +18,10 @@ flex-direction: row;
     box-shadow: 0 3px 6px #00000029;
     opacity: 1;
     align-items: center;
-    gap: 700px;
+    gap: 650px;
     height: 70px;
     display: flex;
-    margin-left: 70px;
+    margin-left: 80px;
 }
 
 .page__header__logo {
@@ -42,6 +42,7 @@ flex-direction: row;
     font-size: 11px;
     background-color: transparent;
   align-items: center;
+    margin-right: 20px;
 }
 
 .page__header__list li {
