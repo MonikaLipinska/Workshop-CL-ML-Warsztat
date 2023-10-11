@@ -1,1 +1,214 @@
+.benefits .container {
+    display: flex;
+    flex-direction: column;
+    width: 1352px;
+    background-color: var(--color-light-grey);
+    align-items: center;
+}
+
+.container {
+    width: 1352px;
+}
+.benefits__comp {
+    width: 1000px;
+    height: 350px;
+    border: 1px solid var(--color-light-grey);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+.benefits__comp__textmain {
+    font-family: "Raleway", sans-serif;
+    font-size: 36px;
+    padding: 30px;
+
+}
+
+.benefits__comp__text {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+padding:30px;
+    text-align: justify-all;
+}
+
+.comp__picwindow {
+    width: 1000px;
+    height: 250px;
+    position: relative;
+}
+
+.benefits__comp__pic{
+    width: 386px;
+    height: 219px;
+    display: flex;
+    z-index: 1;
+    position: absolute;
+    margin-top: 43px;
+}
+
+.benefits__redline{
+    width: 400px;
+    height: 30px;
+    border-top: 5px solid var(--color-redish);
+    margin-top: 20px;
+    padding:30px;
+    margin-left: 30px;
+}
+
+.benefits__comp__redsquare {
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    background: var(--color-redish) padding-box;
+    border-radius: 40px;
+    transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+margin-left: 220px;
+    margin-top: 9px;
+}
+
+.benefits__phone{
+    width: 1000px;
+    height: 350px;
+    border: 1px solid var(--color-light-grey);
+    display: grid;
+    grid-template-columns: (3,1fr);
+    align-items: revert;
+
+gap:30px;
+    justify-content: center;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+
+.benefits__phone__textmain {
+    font-family: "Raleway", sans-serif;
+    font-size: 36px;
+    padding: 30px;
+}
+
+.benefits__phone__text {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    padding:30px;
+    text-align: justify-all;
+}
+
+.phone__picwindow {
+    width: 500px;
+    height: 250px;
+    position: relative;
+    grid-column: 1;
+    display: grid;
+
+}
+
+.phone__texts{
+    grid-column: 2;
+    display: grid;
+    margin-right: -4px;
+    width: 500px;
+
+}
+
+.benefits__phone__pic{
+    width: 426px;
+    height: 328px;
+    display: flex;
+    z-index: 1;
+    position: absolute;
+    margin-top: -340px;
+    margin-left: 103px;
+}
+
+.benefits__phone__blueline{
+    width: 400px;
+    height: 30px;
+    border-top: 5px solid var(--color-primary);
+    margin-top: 20px;
+    padding:30px;
+    margin-left: 30px;
+}
+
+
+.benefits__phone__bluecircle {
+    width: 320px;
+    height: 320px;
+    position: absolute;
+    background: var(--color-primary) padding-box;
+    border-radius: 100%;
+    margin-left: 90px;
+    margin-top: -341px;
+}
+
+.benefits__horn {
+    width: 1000px;
+    height: 350px;
+    border: 1px solid var(--color-light-grey);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.benefits__horn__leftside {
+    width: 570px;
+    height: 350px;
+}
+
+.benefits__horn__rightside {
+    width: 440px;
+    height: 350px;
+    background-color: var(--color-green);
+justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-right: 0;
+}
+
+.benefits__pic__horn {
+    width: 295px;
+    height: 207px;
+
+}
+
+.benefits__horn__center {
+    height: 350px;
+    width: 50px;
+    background-color: var(--color-light-grey);
+    margin-top: -325px;
+    margin-bottom: 23px;
+    margin-left: 513px;
+    border: none;
+
+}
+
+.benefits__horn__textmain {
+    font-family: "Raleway", sans-serif;
+    font-size: 36px;
+    padding: 30px;
+}
+
+.benefits__horn__text {
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    padding:30px;
+    text-align: justify;
+    margin-right: 69px;
+}
+
+.benefits__horn__greenline {
+    width: 400px;
+    height: 30px;
+    border-top: 5px solid var(--color-green);
+    margin-top: 20px;
+    padding:30px;
+    margin-left: 30px;
 }
